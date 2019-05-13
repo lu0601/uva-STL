@@ -1,6 +1,6 @@
 ## uva-STL ##  
 
-I use STL algorithm to solve uva's problem, and the STL algorithm used is listed as below:
+I use STL algorithm to solve uva's problem, and the STL algorithm used is listed as below:  
 UVa 11799 Horror Dash: max_element()  
 UVa 10370 Above average: accumulate(), count_if()  
 UVa 10038 Jolly jumpers: adjacent_difference(), all_of()  
