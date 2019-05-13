@@ -23,10 +23,7 @@ void Card::Set(char s, char d)
 // ------------------------------------------------------------------
 bool operator < (const Card &lhs, const Card &rhs)
 {
-    // TODO
     int l=0, r=0;
-    //l = (lhs.suit_-'0')*100 + lhs.num_;
-    //r = (rhs.suit_-'0')*100 + rhs.num_;
     if(isdigit(lhs.digit_))
     {
         l+= lhs.digit_-'0';
@@ -123,7 +120,6 @@ int main()
     {
         constexpr char position[] = "NESW";
         constexpr size_t NumPeople = sizeof(position)-1;
-
         // determine the first player to get cards
         int j = 0;
         for (size_t i=0; i<NumPeople; i+=1)
