@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-void print(const int TrainId[], const int NumTrain)
+/*void print(const int TrainId[], const int NumTrain)
 {
     for(int i=0;i<NumTrain;i+=1)
     {
         printf("%d", TrainId[i]);
     }
     printf("\n");
-}
-
+}use to debug
+*/
 // TODO:
 int CompId(const int l, const int r)
 {
@@ -63,7 +63,6 @@ int main()
             scanf("%d",&TrainId[j]);
         }
         printf("Optimal train swapping takes %d swaps.\n",Sort(TrainId, NumTrain));
-        //print(TrainId,NumTrain);
     }
     return 0;
 }
