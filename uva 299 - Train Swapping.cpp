@@ -8,7 +8,7 @@
         printf("%d", TrainId[i]);
     }
     printf("\n");
-}use to debug
+}//use to debug
 */
 // TODO:
 int CompId(const int l, const int r)
