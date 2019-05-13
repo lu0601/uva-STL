@@ -6,7 +6,6 @@ class Compare
 {
 public:
     void SetDivisor(int d) { divisor_ = d; }
-    // TODO: operator ()
     bool operator()(int rhs, int lhs)const;
 private:
     int divisor_ = 1;
